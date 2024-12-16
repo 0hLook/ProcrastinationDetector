@@ -19,7 +19,7 @@ print("Press 'x' to exit")
 def play_beep():
     global beep_playing
     try:
-        winsound.Beep(2000, 2000)  # Beeps at 2000Hz for 2s
+        winsound.Beep(10000, 2000)  # Beeps at 10000Hz for 2s
     except Exception as e:
         print(f"Error playing beep: {e}")
     finally:
